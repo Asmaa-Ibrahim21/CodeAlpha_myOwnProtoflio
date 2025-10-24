@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Asmaa Ibrahim — Portfolio</title>
+
+  <!-- Google Font (will load if online) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <div class="wrap">
+
+    <!-- Header -->
+    <header>
+      <div class="brand">
+        <div class="logo">AI</div>
+        <div>
+          <div style="font-weight:700">Asmaa Ibrahim</div>
+          <div style="font-size:12px;color:var(--muted)">Web Developer • Front-end</div>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="btn ghost" id="downloadCV">Download CV</button>
+        <button class="btn" id="modeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="reveal">
+      <div class="hero-left">
+        <div class="hero">
+          <div>
+            <h1>Hi — I'm <span style="background:linear-gradient(90deg,var(--accent1),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;">Asmaa Ibrahim</span></h1>
+            <p class="lead">I build clean, responsive, and accessible web experiences using modern HTML, CSS and JavaScript. Currently studying React and enhancing front-end skills.</p>
+
+            <div class="cta-row">
+              <a class="btn" href="#projects">View Projects</a>
+              <button class="btn ghost" id="openCV">Preview CV</button>
+            </div>
+
+            <div style="margin-top:18px">
+              <span class="badge">Open to internships • Junior Web Developer</span>
+            </div>
+          </div>
+
+          <aside>
+            <div class="me-card">
+              <div style="display:flex;align-items:center;gap:12px">
+                <div class="avatar">A</div>
+                <div>
+                  <div style="font-weight:700">Asmaa Ibrahim</div>
+                  <div class="small">Web Developer — Frontend</div>
+                </div>
+              </div>
+
+              <div class="info-row" style="margin-top:12px">
+                <div>
+                  <div style="font-weight:700">Location</div>
+                  <div class="small">Egypt,Asyut</div>
+                </div>
+                <div style="margin-left:auto;text-align:right">
+                  <div style="font-weight:700">Contact</div>
+                  <div class="small">+201069527156</div>
+                </div>
+              </div>
+
+              <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+                <a class="btn ghost" href="https://www.linkedin.com/in/asmaa-ibrahim-671ab2379" target="_blank">LinkedIn</a>
+                <a class="btn ghost" href="https://github.com/Asmaa-Ibrahim21" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="glass reveal">
+      <div class="section-title">
+        <h2>About Me</h2>
+        <p>Who I am & what I do</p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 320px;gap:18px;align-items:start">
+        <div>
+          <p style="margin-top:0;color:var(--muted);line-height:1.7">
+            I'm <strong>Asmaa Ibrahim</strong>, a Web Developer with a passion for building polished and user-friendly interfaces.
+            I enjoy turning ideas into clean, accessible web pages and small apps. I focus on semantic HTML, responsive layouts, and efficient JavaScript.
+            At the moment I'm deepening my knowledge of React to create component-based apps while keeping good fundamentals in vanilla web technologies.
+          </p>
+
+          <h3 style="margin-top:18px">Approach</h3>
+          <p class="small">I write maintainable code, prefer simple and clear UI, and focus on performance and accessibility. I love learning new tools and improving my craft every day.</p>
+
+          <h3 style="margin-top:16px">Quick facts</h3>
+          <ul style="color:var(--muted);line-height:1.8">
+            <li>BSc / interested in front-end development</li>
+            <li>Comfortable with HTML, CSS, JS and Bootstrap</li>
+            <li>Experience building responsive landing pages and small apps</li>
+          </ul>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="glass" style="text-align:left">
+            <div style="font-weight:700;margin-bottom: 10px;">Contact</div>
+            <div class="small" style="margin-top:6px">Email: <a href="mailto:asmaaibrahim2194@gmail.com">asmaaibrahim2194@gmail.com</a></div>
+            <div class="small">Phone: +201069527156</div>
+            <div style="margin-top:15px">
+              <a class="btn" href="https://drive.google.com/file/d/1kgdYHfaVgJjkB9nyfQArIujbNL9wc4-m/view?usp=drive_link" download>Download CV</a>
+            </div>
+          </div>
+
+          <div class="glass" style="text-align:left">
+            <div style="font-weight:700">Education </div>
+            <div class="small" style="margin-top:6px">Bachelor’s in Information Systems, Faculty of Computers and Information, Assiut University, expected graduation in 2026, GPA: 3.25.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="reveal glass">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>Technologies & tools I use</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-pill">HTML</div>
+        <div class="skill-pill">CSS</div>
+        <div class="skill-pill">JavaScript (Vanilla)</div>
+        <div class="skill-pill">Bootstrap</div>
+        <div class="skill-pill">React (learning)</div>
+        <div class="skill-pill">Git / GitHub</div>
+        <div class="skill-pill">C++, C, Java</div>
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">PHP</div>
+        <div class="skill-pill">C#</div>
+        <div class="skill-pill">MySQL</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="reveal">
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Coffee Shop -->
+        <article class="project reveal">
+          <div class="thumb">Coffee Shop — Landing</div>
+          <div class="p-body">
+            <div class="p-title">Coffee Shop Website</div>
+            <div class="p-desc">
+              A modern landing page designed for a coffee shop brand. The project focuses on visual hierarchy, appetizing imagery, intuitive menu display, and smooth scrolling.
+              Built with semantic HTML, responsive CSS grid/flex, and subtle JavaScript for a menu filter and scroll animations.
+            </div>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Hotel -->
+        <article class="project reveal">
+          <div class="thumb">Responsive Hotel Site</div>
+          <div class="p-body">
+            <div class="p-title">Responsive Hotel Website</div>
+            <div class="p-desc">
+              A multi-section website showing room galleries, amenities, and a booking/contact form.
+              Emphasis on a fluid responsive layout (mobile-first), accessible forms, and image galleries that adapt across devices.
+            </div>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Forms</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- To-Do -->
+        <article class="project reveal">
+          <div class="thumb">To-Do List App</div>
+          <div class="p-body">
+            <div class="p-title">To-Do List</div>
+            <div class="p-desc">
+              A small interactive app demonstrating CRUD behavior in pure JavaScript. Features: add/edit/delete tasks, localStorage persistence, and simple filters (all/active/completed).
+            </div>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">localStorage</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Calculator -->
+        <article class="project reveal">
+          <div class="thumb">Calculator</div>
+          <div class="p-body">
+            <div class="p-title">Calculator App</div>
+            <div class="p-desc">
+              Lightweight calculator built with semantic buttons and keyboard support. Focus on precise input handling and a responsive layout for mobile and desktop.
+            </div>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">JS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- FAQ App -->
+        <article class="project reveal">
+          <div class="thumb">FAQ App</div>
+          <div class="p-body">
+            <div class="p-title">FAQ Interactive Page</div>
+            <div class="p-desc">
+              FAQ interface with accessible expand/collapse behaviour, smooth transitions, and keyboard navigation. Implemented using minimal JS and progressive enhancement.
+            </div>
+            <div class="tags">
+              <span class="tag">Accessibility</span>
+              <span class="tag">JS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- CRUD React (not required) -->
+        <article class="project reveal">
+          <div class="thumb">CRUD App (React)</div>
+          <div class="p-body">
+            <div class="p-title">CRUD App (React)</div>
+            <div class="p-desc">
+              A small CRUD example using React to demonstrate components, state handling, and basic hooks. Included to show familiarity with component-based thinking.
+            </div>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Components</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="glass reveal">
+      <div class="section-title">
+        <h2>CV</h2>
+        <p>Download or preview my CV</p>
+      </div>
+
+      <div style="display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <h3 style="margin-top:0">Asmaa Ibrahim</h3>
+          <p class="small">Web Developer — Front-end</p>
+
+          <h4 style="margin-top:12px">Summary</h4>
+          <p class="small" style="color:var(--muted);line-height:1.6">
+            Enthusiastic web developer building responsive, accessible front-end experiences. Strong fundamentals in HTML, CSS and JavaScript; currently growing skills in React. Comfortable with small full-stack tasks using PHP & MySQL.
+          </p>
+
+          <div style="margin-top:12px">
+            <a class="btn" href="https://drive.google.com/file/d/1kgdYHfaVgJjkB9nyfQArIujbNL9wc4-m/view?usp=drive_link" download>Download CV (PDF)</a>
+            <button class="btn ghost" id="previewCV">Open Preview</button>
+          </div>
+        </div>
+
+        <div style="width:360px;min-width:240px">
+          <div style="background:linear-gradient(90deg,var(--accent1),var(--accent2));padding:14px;border-radius:12px;color:#04203b;font-weight:700">Quick CV Facts</div>
+
+          <div style="margin-top:12px" class="small">
+            <div><strong>Email:</strong> asmaaibrahim2194@gmail.com</div>
+            <div><strong>LinkedIn:</strong> linkedin.com/in/asmaa-ibrahim-671ab2379</div>
+            <div><strong>GitHub:</strong> github.com/Asmaa-Ibrahim21</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal">
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Let's get in touch</p>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <form class="contact-form" onsubmit="openMail(event)">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Your email" required>
+            <textarea id="message" rows="6" placeholder="Your message" required></textarea>
+            <button class="btn" type="submit">Send message</button>
+          
+          </form>
+        </div>
+
+        <aside class="contact-info">
+          <div class="glass">
+            <div style="font-weight:700;margin-bottom: 10px;">Contact Info</div>
+            <div class="meta"><strong>Email</strong><span style="margin-left:6px;color:var(--muted)">asmaaibrahim2194@gmail.com</span></div>
+            <div class="meta"><strong>Phone</strong><span style="margin-left:6px;color:var(--muted)">+201069527156</span></div>
+            <div class="meta"><strong>Location</strong><span style="margin-left:6px;color:var(--muted)">Egypt</span></div>
+            <div style="margin-top:15px">
+              <a class="btn ghost" href="https://www.linkedin.com/in/asmaa-ibrahim-671ab2379" target="_blank" >LinkedIn</a>
+              <a class="btn ghost" href="https://github.com/Asmaa-Ibrahim21" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Asmaa Ibrahim • Built with HTML • CSS • JS
+    </footer>
+
+  </div> <!-- wrap -->
+
+
+  <script src="script.js"></script>
+</body>
+</html> 
