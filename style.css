@@ -214,9 +214,12 @@
     padding: 22px;
     border-radius: 12px;
   }
-   .glass a{
-     color:white;
-   }
+  .glass a{
+    color: black;
+  }
+body.dark .glass a{
+  color: white;
+}
   body.dark .glass {
     background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
   }
@@ -379,4 +382,5 @@
     opacity: 1;
     transform: none;
   }
+
 
